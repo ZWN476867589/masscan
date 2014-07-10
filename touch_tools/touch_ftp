@@ -19,6 +19,6 @@ def Touch_Ftp(fname):
 
 if __name__ == '__main__':
     parse = argparse.ArgumentParser()
-    parse.add_argument('file', help='masscan file')
+    parse.add_argument('file', help='masscan output file')
     args = parse.parse_args()
-    Touch_Ftp(args.file
+    Touch_Ftp(args.file)
